@@ -1,4 +1,4 @@
-# codestyle-practices
+# Codestyle practices
 Collection of useful features to make your code more readable, efficient and handy
 
 ## For all C# developers:
