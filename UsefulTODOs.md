@@ -2,9 +2,9 @@
 
 - ***`_NOTE:`*** \
     Mark something, that will need your attention during refactor. It is not necessary something that you *must* change during refactor, rather something, that *can* be changed.
-    > *You develop a page that contains collection of items. You can manipulate items such as delete, add, etc. Suppose, you have a situation when user can't remove item from collection (f.e. your collection is associated with server and there is no internet on user device). In that case you need to make user know that he can't delete this item. You can do it two way (or maybe more): send user and alert at the bottom of the screen or show him a dialog that he can close by clicking on a button. And you don't know which is better. So you can realise one of the way (f.e. by dialogs) and make a **`_NOTE`** todo like this:
-  
-    ***`_NOTE: maybe some dialogs (like "Cannot remove <item>) can be replaced with alerts`***
+    > *You develop a page that contains collection of items. You can manipulate items such as delete, add, etc. Suppose, you have a situation when user can't remove item from collection (f.e. your collection is associated with server and there is no internet on user device). In that case you need to make user know that he can't delete this item. You can do it two way (or maybe more): send user and alert at the bottom of the screen or show him a dialog that he can close by clicking on a button. And you don't know which is better. So you can realise one of the way (f.e. by dialogs) and make a **`_NOTE`** todo like this:*
+    
+***`_NOTE: maybe some dialogs (like "Cannot remove <item>) can be replaced with alerts`***
 
     ***`_NOTE`*** it is something very like default TODO, but it is more precise (especially when you mix up it with other TODO's).
   
@@ -13,7 +13,7 @@
 - ***`_BRANCH_NOTE [<branch_name> / <task number>]:`*** \
     This note is for developers who develops features on separate branches, and only after feature complete merge/rebase this branch into main branch. This is the same as ***`_NOTE`*** todo, but if ***`_NOTE`*** todo must be removed after refactor, ***`_BRANCH_NOTE`*** todo must be removed before merging/rebasing branch with your feature into develop. So, ***there must be no ***`_BRANCH_NOTE`*** todo's in your main branch.***
 
-    > *You develop something on separate branch with name `1234-my-feature`, f.e. method, that use method JamesMethod() created by another developer James in your team. And you need another modification of this method for your feature (f.e. you need it returns AnotherType instead of CurrentType that it returns now). So, you ask your teammate to create this modification and notify you when it will be completed. And, to not forget, you should create **`_BRANCH_NOTE`** todo like this:* \
+    > *You develop something on separate branch with name `1234-my-feature`, f.e. method, that use method JamesMethod() created by another developer James in your team. And you need another modification of this method for your feature (f.e. you need it returns AnotherType instead of CurrentType that it returns now). So, you ask your teammate to create this modification and notify you when it will be completed. And, to not forget, you should create **`_BRANCH_NOTE`** todo like this:* 
 
     ***`_BRANCH_NOTE [1234]: wait for update JamesMethod() by James. It must return AnotherType instead of CurrentType.`*** 
 
@@ -92,7 +92,7 @@
     
     This is todo that you should never ever use. Never. Because you should never ever have commented code. But, you know, it is like push --force — if there is nobody who can see it... Ok, it can be situations, when you need to comment some code to disable some features during developing. And this todo is for situations like this. But, remember: you must delete all commented code before pushing your changes to main branch. Be clean.
 
-    > You have some, f.e., class in your project, and you need to rewrite it. In this situation you need to make old class invisible for all program, but visible for you — to have the base for rewriting. In this case it would be nice to comment your old realization and you can (and you should) mark it using `***_COMMENTED_CODE`*** todo.
+    > You have some, f.e., class in your project, and you need to rewrite it. In this situation you need to make old class invisible for all program, but visible for you — to have the base for rewriting. In this case it would be nice to comment your old realization and you can (and you should) mark it using ***`_COMMENTED_CODE`*** todo.
 
     ***`_COMMENTED_CODE: new realization is in develop, use this class as base for newer.`***
 
@@ -100,6 +100,6 @@
     
  #
 
-Of course, all this TODO's is almost useless, if you doesn't implement it as TODO's in your IDE -- in that case this is just a comments. So mix the power of TODO's with power of your IDE (you can even use the power of your compiler and do the warnings and errors based on this todo's). \
+Of course, all this TODO's is almost useless, if you doesn't implement it as TODO's in your IDE -- in that case this is just a comments. So mix the power of TODO's with power of your IDE (you can ever use the power of your compiler and do the warnings and errors based on this todo's). \
 If you want to say that author is an idiot (or maybe you have some remarks), you can contact me through the Telegram: https://t.me/psevdointellektuall. \
 Be aware writing your code! 
