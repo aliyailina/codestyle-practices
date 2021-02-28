@@ -6,7 +6,7 @@
     
 ***`_NOTE: maybe some dialogs (like "Cannot remove <item>) can be replaced with alerts`***
 
-    ***`_NOTE`*** it is something very like default TODO, but it is more precise (especially when you mix up it with other TODO's).
+***`_NOTE`*** it is something very like default TODO, but it is more precise (especially when you mix up it with other TODO's).
   
 #
   
