@@ -2,7 +2,8 @@
 
 - ***`_NOTE:`*** \
     Mark something, that will need your attention during refactor. It is not necessary something that you *must* change during refactor, rather something, that *can* be changed.
-    > *You develop a page that contains collection of items. You can manipulate items such as delete, add, etc. Suppose, you have a situation when user can't remove item from collection (f.e. your collection is associated with server and there is no internet on user device). In that case you need to make user know that he can't delete this item. You can do it two way (or maybe more): send user and alert at the bottom of the screen or show him a dialog that he can close by clicking on a button. And you don't know which is better. So you can realise one of the way (f.e. by dialogs) and make a **`_NOTE`** todo like this:*
+    > *You develop a page that contains collection of items. You can manipulate items such as delete, add, etc. Suppose, you have a situation when user can't remove item from collection (f.e. your collection is associated with server and there is no internet on user device). In that case you need to make user know that he can't delete this item. You can do it two way (or maybe more): send user and alert at the bottom of the screen or show him a dialog that he can close by clicking on a button. And you don't know which is better. So you can realise one of the way (f.e. by dialogs) and make a **`_NOTE`** todo like this:
+  
     ***`_NOTE: maybe some dialogs (like "Cannot remove <item>) can be replaced with alerts`***
 
     ***`_NOTE`*** it is something very like default TODO, but it is more precise (especially when you mix up it with other TODO's).
