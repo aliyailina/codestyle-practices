@@ -92,7 +92,7 @@
     
     This is todo that you should never ever use. Never. Because you should never ever have commented code. But, you know, it is like push --force — if there is nobody who can see it... Ok, it can be situations, when you need to comment some code to disable some features during developing. And this todo is for situations like this. But, remember: you must delete all commented code before pushing your changes to main branch. Be clean.
 
-    > You have some, f.e., class in your project, and you need to rewrite it. In this situation you need to make old class invisible for all program, but visible for you — to have the base for rewriting. In this case it would be nice to comment your old realization and you can (and you should) mark it using ***`_COMMENTED_CODE`*** todo.
+    > *You have some, f.e., class in your project, and you need to rewrite it. In this situation you need to make old class invisible for all program, but visible for you — to have the base for rewriting. In this case it would be nice to comment your old realization and you can (and you should) mark it using ***`_COMMENTED_CODE`*** todo.*
 
     ***`_COMMENTED_CODE: new realization is in develop, use this class as base for newer.`***
 
