@@ -99,6 +99,6 @@
     
  #
 
-Of course, all this TODO's is almost useless, if you doesn't implement it as TODO's in your IDE -- in that case this is just a comments. So mix the power of TODO's with power of your IDE (you can ever use the power of your compiler and do the warnings and errors based on this todo's). \
+Of course, all this TODO's is almost useless, if you doesn't implement it as TODO's in your IDE -- in that case this is just a comments. So mix the power of TODO's with power of your IDE (you can even use the power of your compiler and do the warnings and errors based on this todo's). \
 If you want to say that author is an idiot (or maybe you have some remarks), you can contact me through the Telegram: https://t.me/psevdointellektuall. \
 Be aware writing your code! 
